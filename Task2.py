@@ -3,12 +3,12 @@
 my_list = ['sdf13','fds66','34']
 
 def found(list_, x):
-    #a = ['sdf13','fds66','34']
+    
     for i in list_:
         if x in i:
-            print(i)
-        #else:
-            #print('нет')    
-    
+            print (i)
+        else:
+            print('no')    
+
             
-found(my_list,'3')            
+found(my_list,'3')         
